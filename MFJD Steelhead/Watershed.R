@@ -4,7 +4,7 @@
 # matt@southforkresearch.org
 # (541) 740-5487
 # Pete McHugh's John Day 2015-2016 tweaks are included
-# peter.a.mchugh@gmail.com 
+# peter.a.mchugh@gmail.com
 #####################################################
 rm(list = ls(all=TRUE)) #Clean up shop before beginning
 
@@ -16,7 +16,7 @@ rm(list = ls(all=TRUE)) #Clean up shop before beginning
 	source("Watershed_MonteCarlo.r")
 	source("Watershed_BevHolt.r")
 	source("Watershed_Post_Processing.r")
-  source("Watershed_JohnDayOutputs.r") #Only use this if you're interested; it's only been vetted well for single pop/G-type situations
+  source("Watershed_JohnDayOutputs.r") #Only use this if you're interested; it's for 1 pop and hasn't been vetted for Chinook
 
 # Read Header and Input Files
 	print("Reading Header Files")
